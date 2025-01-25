@@ -77,7 +77,7 @@ func main() {
 	startId := *startIdPtr
 	endId := *endIdPtr
 
-	for id := startId; id < endId; id++ {
+	for id := startId; id <= endId; id++ {
 		scrapeDoctorCommentPage(id)
 		time.Sleep(2 * time.Second)
 	}
