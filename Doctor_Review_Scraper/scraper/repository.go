@@ -14,7 +14,7 @@ import (
 
 var HEADERS = []string{
 	"TreatmentPerformance", "ServiceAttitude", "Professionalism", "ReasonablePrice",
-	"Author", "VisitReason", " CommentDate", "VisitDate", "Heading", "Comment", "MedicalFee",
+	"Author", "VisitReason", "CommentDate", "VisitDate", "Heading", "Comment", "MedicalFee",
 }
 
 func NewCollector(allowedDomain, userAgent string, timeout time.Duration) *colly.Collector {
